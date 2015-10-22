@@ -589,6 +589,7 @@ on property:sys.boot_completed=1
     stop mpdecision
     write /sys/module/intelli_plug/parameters/intelli_plug_active 1
     write /sys/module/intelli_plug/parameters/touch_boost_active 1
+    write /sys/devices/system/cpu/sched_mc_power_savings 1
 
 # Charger
 on charger
