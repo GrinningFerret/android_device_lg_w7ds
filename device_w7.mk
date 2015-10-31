@@ -152,8 +152,8 @@ PRODUCT_PACKAGES += \
     com.cyanogenmod.keyhandler
 
 # Keystore
-PRODUCT_PACKAGES += \
-    keystore.msm8226
+#PRODUCT_PACKAGES += \
+#    keystore.msm8226
 
 # Crda
 PRODUCT_PACKAGES += \
